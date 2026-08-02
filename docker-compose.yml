@@ -13,7 +13,7 @@ services:
       TYPE: "NEOFORGE"
       VERSION: "1.21.1"
 
-      PACKWIZ_URL: "https://raw.githubusercontent.com/kovalmaksym/friends-modded-server/main/pack.toml"
+      PACKWIZ_URL: "https://cdn.jsdelivr.net/gh/kovalmaksym/friends-modded-server@main/pack.toml"
       PACKWIZ_NO_PROMPT: "TRUE"
       PACKWIZ_CACHE_IGNORE: "TRUE"
       PACKWIZ_ARGS: "-y"

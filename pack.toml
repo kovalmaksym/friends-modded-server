@@ -1,12 +1,12 @@
 name = "Create Aero"
 author = "Max"
-version = "1.0.1"
+version = "1.2.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "c71787d5a4c06fa88a6b197b35cf83e0a8afabee63e72306fd4e58260f7fa2e5"
+hash = "a83319a15d3a5ad156dde437270928e7a0097283503854c2e8b318b7bbbf7920"
 
 [versions]
 minecraft = "1.21.1"
