@@ -5,6 +5,11 @@ file = "README.md"
 hash = "5ea66a7d4487794032f0b38f2820a83a2b1aff21d4ac5c631657bcb22b579b22"
 
 [[files]]
+file = "mods/chunky.pw.toml"
+hash = "1d5cc2b6dcfd1fc3adba4566b1c29b57ff1175316678c1f22e63cbc3e28a5ba0"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
 metafile = true
