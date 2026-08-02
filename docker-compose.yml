@@ -13,6 +13,8 @@ services:
 
       PACKWIZ_URL: "https://raw.githubusercontent.com/kovalmaksym/friends-modded-server/main/pack.toml"
       PACKWIZ_NO_PROMPT: "TRUE"
+      PACKWIZ_CACHE_IGNORE: "TRUE"
+      PACKWIZ_ARGS: "-y"
 
       MEMORY: "4096M"
       USE_AIKAR_FLAGS: "TRUE"

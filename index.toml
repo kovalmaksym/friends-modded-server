@@ -79,8 +79,3 @@ metafile = true
 file = "mods/tectonic.pw.toml"
 hash = "55df8de464fbe19dec8048c86d9722cbde062b645ee480a86d1c991862d67f06"
 metafile = true
-
-[[files]]
-file = "mods/terralith.pw.toml"
-hash = "a58deaea68d4ed6c8e551273571cf7f9305c0a9747f82b0ef4b778c4bb54e235"
-metafile = true
