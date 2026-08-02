@@ -24,6 +24,11 @@ hash = "33ea8d2b8449ccb0e6e6a456db71e44c53980a5e38e93a9eecc7257029510889"
 metafile = true
 
 [[files]]
+file = "mods/create-aeronautics.pw.toml"
+hash = "5fab8d2e412683dfd72f08cf6750e51b03cb43192e8eb783e962ba28d20978bc"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "e66c8649557c5df5d660e64b635576f8aa836c05b14e915b8f4ae119c704d7bf"
 metafile = true
@@ -54,6 +59,11 @@ hash = "009bfeeaa9859100e2d25e4c4f017b6959158e5e73a1ab39919ad5c7805fb8a7"
 metafile = true
 
 [[files]]
+file = "mods/sable.pw.toml"
+hash = "674aaf0dc67f808f0054cfc7bbe041d6725fcbbe97644a85ffbd946a22d35666"
+metafile = true
+
+[[files]]
 file = "mods/servercore.pw.toml"
 hash = "e6bfb33055c9c6e32034c2c2ac03768a8978d3f7200a266b00849ff76b9e6816"
 metafile = true
@@ -66,6 +76,11 @@ metafile = true
 [[files]]
 file = "mods/spark.pw.toml"
 hash = "96762cd1dfbe4bf1c93cfd88c756f532eaeeb489ea4940463fac16e7c3f6d3fd"
+metafile = true
+
+[[files]]
+file = "mods/ssrd.pw.toml"
+hash = "67eabcc7dbc9c93130dc3f6d689808ee97d4a92fb4ee27c7675c12cc87a2131e"
 metafile = true
 
 [[files]]
