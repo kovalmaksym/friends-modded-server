@@ -1,0 +1,41 @@
+services:
+  minecraft:
+    image: itzg/minecraft-server:java21
+    container_name: create-aero-server
+    ports:
+      - "25565:25565"
+    environment:
+      TZ: "Europe/Prague"
+      LOG_LEVEL: "debug"
+      EULA: "TRUE"
+      TYPE: "NEOFORGE"
+      VERSION: "1.21.1"
+      PACKWIZ_URL: "https://raw.githubusercontent.com/kovalmaksym/friends-modded-server/main/pack.toml"
+      MEMORY: "2560M"
+      USE_AIKAR_FLAGS: "TRUE"
+      ONLINE_MODE: "TRUE"
+      MAX_BUILD_HEIGHT: 256
+      MAX_PLAYERS: "5"
+      OPS: "maksik2002"
+
+      RCON_CMDS_STARTUP:  |-
+        /gamerule doFireTick false
+        /team add New
+        /team add Old
+        /chunky radius 1000
+        /chunky start
+      RCON_CMDS_ON_CONNECT: |-
+        /team join New @a[team=]
+        /give @a[team=New] birch_boat
+        /team join Old @a[team=New]
+      RCON_CMDS_FIRST_CONNECT: |-
+        /chunky pause
+      RCON_CMDS_LAST_DISCONNECT: |-
+        /kill @e[type=minecraft:boat]
+        /chunky continue
+    volumes:
+     - mc-data:/data
+    restart: unless-stopped
+    
+volumes:
+  mc-data:
