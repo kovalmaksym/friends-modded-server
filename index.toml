@@ -45,7 +45,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithostitched.pw.toml"
-hash = "25799998f0c28ed84c8c9d5a2615165ff728df4a2f59dea28c3f7d061adfb8d8"
+hash = "f0c66fc8c3d9dbea2704b007e79125377d50484ff3a40c280b48707659209045"
 metafile = true
 
 [[files]]
@@ -70,10 +70,10 @@ metafile = true
 
 [[files]]
 file = "mods/tectonic.pw.toml"
-hash = "6f23a06a8501ac28110f8270c4b6a56eb6439ba16cfd1755b0a8b741c24ff36c"
+hash = "55df8de464fbe19dec8048c86d9722cbde062b645ee480a86d1c991862d67f06"
 metafile = true
 
 [[files]]
 file = "mods/terralith.pw.toml"
-hash = "d14d2e8497d8ea4604222438da28ad3e802b271b6bc2ab293f65da05cc4a9eec"
+hash = "a58deaea68d4ed6c8e551273571cf7f9305c0a9747f82b0ef4b778c4bb54e235"
 metafile = true
