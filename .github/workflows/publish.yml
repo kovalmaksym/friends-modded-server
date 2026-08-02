@@ -1,0 +1,27 @@
+name: Publish to Modrinth
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Export Modpack
+        run: ~/go/bin/packwiz modrinth export
+
+      - name: Publish to Modrinth
+        uses: Kir-Antipov/mc-publish@v3.3
+        with:
+          modrinth-id: cIHmqa4V
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          modrinth-unfeatured: true
+          version-type: release
+          loaders: neoforge
+          game-versions: 1.21.1
+          files: "*.mrpack"
