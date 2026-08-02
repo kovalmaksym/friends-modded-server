@@ -1,4 +1,4 @@
-name = "Create Aeronautics"
+name = "Create Aero"
 author = "Max"
 version = "1.0.0"
 pack-format = "packwiz:1.1.0"
@@ -6,7 +6,7 @@ pack-format = "packwiz:1.1.0"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "464d5f4509afa3d2ec7aa423f84e9e4770db7ca3cc4c7ed6d069a864c22f4760"
+hash = "e86c1ad630fd04d00b2ad93dadebe3a42c9fd6b51127dd9c5e95fc10dcadbd13"
 
 [versions]
 minecraft = "1.21.1"
