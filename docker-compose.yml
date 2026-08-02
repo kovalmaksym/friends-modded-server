@@ -10,8 +10,11 @@ services:
       EULA: "TRUE"
       TYPE: "NEOFORGE"
       VERSION: "1.21.1"
+
       PACKWIZ_URL: "https://raw.githubusercontent.com/kovalmaksym/friends-modded-server/main/pack.toml"
-      MEMORY: "2560M"
+      PACKWIZ_NO_PROMPT: "TRUE"
+
+      MEMORY: "4096M"
       USE_AIKAR_FLAGS: "TRUE"
       ONLINE_MODE: "TRUE"
       MAX_BUILD_HEIGHT: 256

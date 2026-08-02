@@ -1,14 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "README.md"
-hash = "5ea66a7d4487794032f0b38f2820a83a2b1aff21d4ac5c631657bcb22b579b22"
-
-[[files]]
-file = "docker-compose.yml"
-hash = "04c8567c3dcdcc613978b65783b496bc5ed6cb7e8018525720315f54732a32c7"
-
-[[files]]
 file = "mods/alternate-current.pw.toml"
 hash = "ee6a8a107b9c9b52e6724326afd819346c0355365506465a1bd7a89235b4c39e"
 metafile = true

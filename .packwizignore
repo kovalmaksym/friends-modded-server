@@ -1,0 +1,14 @@
+# Exclude server infrastructure & Docker files
+docker-compose.yml
+docker-compose.*.yml
+.env
+
+# Exclude Git files
+.git/
+.gitignore
+.gitattributes
+README.md
+
+# Exclude local build/export artifacts
+*.mrpack
+*.zip
